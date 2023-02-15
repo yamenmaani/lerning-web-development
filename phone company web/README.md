@@ -3,3 +3,5 @@ I made this project by watching  this youtube video: https://www.youtube.com/wat
 which it helpt me so much and at the same time trying to find another ways to do the same functionality
 
 the web page like: https://phone-compnay-website.netlify.app/
+
+after making this website i have leared how to start using javascript and learned that you can make an awesome stuff by simple tricks 
