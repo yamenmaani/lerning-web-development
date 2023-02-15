@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Space Grotesk", sans-serif;
+  color: white;
+}
+
+body .main {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  color: 2432;
+}
+body .main .controls {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  text-align: center;
+}
+body .main .controls h3 {
+  margin: 15px 0;
+}
+body .main .controls #upbtn {
+  cursor: pointer;
+  width: 15px;
+}
+body .main .controls #dwnbtn {
+  cursor: pointer;
+  width: 15px;
+  transform: rotate(180deg);
+}
+body nav {
+  width: 80%;
+  position: sticky;
+  margin: auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+body .logo {
+  flex-basis: 20%;
+}
+body .logo img {
+  width: 150px;
+}
+body .nav-links {
+  flex: 1;
+  text-align: right;
+}
+body .nav-links ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+body .nav-links ul li a {
+  color: white;
+}
+
+.info {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: -50%;
+  left: 25%;
+  transform: translateY(25%);
+}
+.info .overlay {
+  position: absolute;
+  left: -50%;
+  top: -20px;
+  transform: translateY(25%);
+  width: 0;
+  height: 0;
+  border-top: 500px solid #fff;
+  border-bottom: 500px solid #fff;
+  border-left: 500px solid #fff;
+  border-right: 500px solid transparent;
+}
+.info .phone {
+  transform: translateX(-220%);
+  z-index: 100;
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+.info #circle {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 25%;
+  left: -50%;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 1s;
+}
+.info #circle .feature {
+  border: none;
+  position: absolute;
+  display: flex;
+  color: white;
+  transform: translateY(-28px);
+}
+.info #circle .feature div {
+  margin-left: 30px;
+}
+.info #circle .feature div p {
+  margin-top: 8px;
+}
+.info #circle .feature img {
+  width: 75px;
+}
+.info #circle .one {
+  top: 465px;
+  right: 35px;
+}
+.info #circle .two {
+  top: 150px;
+  left: 325px;
+  transform: rotate(-90deg);
+}
+.info #circle .three {
+  bottom: 450px;
+  left: 50px;
+  transform: rotate(-180deg);
+}
+.info #circle .four {
+  bottom: 165px;
+  left: 350px;
+  transform: rotate(-270deg);
+}/*# sourceMappingURL=style.css.map */
